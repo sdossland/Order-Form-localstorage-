@@ -1,6 +1,7 @@
 body {
     /*background-image: url("");*/
     margin: 0;
+    font-family: "Courier New", Courier, monospace;
 }
 .container {
     position: absolute;
@@ -21,4 +22,16 @@ h1 {
 ul {
     list-style-type: none;
     padding: 0;
+}
+li, form {
+    line-height: 30px;
+}
+input {
+    font-family: "Courier New", Courier, monospace;
+    height: 23px;
+    font-size: 1.0em;
+}
+input[type=submit] {
+    min-width: 50px;
+    width: 30%;
 }
